@@ -64,9 +64,8 @@
     scroll-margin: 0.7rem;
     scroll-snap-align: start;
     scroll-snap-stop: normal;
-    backdrop-filter: blur(2px);
     filter: drop-shadow(0 0.4rem 1rem var(--main-color-30));
-    background: linear-gradient(var(--main-color-30) -450%, var(--main-bg-90));
+    background: linear-gradient(var(--main-color-30) -450%, var(--main-bg-90)), var(--main-bg-90);
   }
   .service div div {
     display: grid;
