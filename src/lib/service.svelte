@@ -45,11 +45,11 @@
   {/if}
 
   {data.title}
-  <ul>
+  <div>
     {#each data.reasons as reason}
-      <li>{reason}</li>
+      <div>🚧 {reason}</div>
     {/each}
-  </ul>
+  </div>
 </div>
 
 <style>
@@ -67,10 +67,10 @@
     scroll-snap-stop: normal;
   }
 
-  .service li::marker {
+  /* .service li::marker {
     content: "🚧";
-    font-size: 1.2em;
-  }
+    font-size: 1.2rem;
+  } */
   /* @media (min-width: 700px) {
     .service {
       height: auto;
