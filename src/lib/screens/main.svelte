@@ -10,7 +10,6 @@
     height: 100vh;
     display: grid;
     grid-template-rows: auto max-content;
-    scroll-margin: 1px;
     scroll-snap-align: start;
     scroll-snap-stop: normal;
   }
