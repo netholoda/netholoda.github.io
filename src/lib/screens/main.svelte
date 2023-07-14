@@ -1,13 +1,8 @@
-<script>
-  import Button from "../button.svelte";
-</script>
-
 <section>
   <div class="main">
     <div class="fridge" />
     <h1 class="title">Ремонт холодильников в Усолье-Сибирском</h1>
   </div>
-  <div class="footer"><Button>Обратиться ко мне</Button></div>
 </section>
 
 <style>
@@ -42,12 +37,6 @@
     place-items: center;
     line-height: 0.9;
     margin: 0;
-  }
-  .footer {
-    display: grid;
-    /* height: 3.5rem; */
-    /* place-items: center; */
-    padding: 0 1rem;
   }
   @media (min-width: 700px) {
     .main {
