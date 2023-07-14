@@ -42,10 +42,6 @@
     .main {
       justify-content: center;
     }
-    .title {
-      justify-self: self-end;
-      padding-left: 2rem;
-    }
     .fridge {
       background-position: calc(100% + 3rem);
       background-size: contain;
