@@ -36,7 +36,7 @@
     background-size: 27rem;
     background-position: 33vw 100%;
     background-repeat: no-repeat;
-    filter: drop-shadow(0.5rem 0.5rem 1.5rem var(--main-color-60));
+    filter: drop-shadow(0.5rem 0.5rem 1.5rem var(--main-color-30));
     width: 100vw;
     height: 100vh;
     position: absolute;
