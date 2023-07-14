@@ -34,7 +34,7 @@
     height: 90vh;
     text-align: center;
     display: grid;
-    place-content: center;
+    align-items: center;
     line-height: 0.9;
     margin: 0;
   }
