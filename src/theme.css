@@ -20,9 +20,9 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --main-color: #ffe500;
+    /* --main-color: #ffe500; */
     /* --main-color: #5bd000; */
-    /* --main-color: #a8d1e1; */
+    --main-color: #a8d1e1;
     --svg-color: #404040;
 
     background-color: #181818;
