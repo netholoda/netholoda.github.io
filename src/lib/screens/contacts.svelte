@@ -18,7 +18,6 @@
   section {
     padding: 1rem 10rem 0 1rem;
     height: 100vh;
-    /* scroll-margin: 0.7rem; */
     scroll-snap-align: start;
     scroll-snap-stop: normal;
     position: relative;
@@ -29,12 +28,15 @@
     position: absolute;
     bottom: 0;
   }
+  footer a {
+    display: inline-grid;
+  }
   .master {
     background-image: url(../../assets/master.png);
-    background-size: 30rem;
+    background-size: 27rem;
     background-position: 33vw 100%;
     background-repeat: no-repeat;
-    filter: drop-shadow(0.5rem 0.5rem 1.5rem var(--main-color));
+    filter: drop-shadow(0.5rem 0.5rem 1.5rem var(--main-color-60));
     width: 100vw;
     height: 100vh;
     position: absolute;

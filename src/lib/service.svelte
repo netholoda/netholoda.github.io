@@ -47,7 +47,7 @@
   {data.title}
   <div>
     {#each data.reasons as reason}
-      <div>🥷🏿 {reason}</div>
+      <div><span>⚙️</span>{reason}</div>
     {/each}
   </div>
 </div>
@@ -66,6 +66,16 @@
     scroll-snap-stop: normal;
     backdrop-filter: blur(2px);
     filter: drop-shadow(0 0.4rem 1rem var(--main-color-60));
-    background: linear-gradient(var(--main-color-30) -325%, var(--main-bg));
+    background: linear-gradient(var(--main-color-30) -350%, var(--main-bg-90));
+  }
+  .service div div {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: max-content auto;
+    align-items: center;
+    gap: 0.2rem;
+  }
+  span {
+    font-size: 0.8rem;
   }
 </style>
