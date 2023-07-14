@@ -10,6 +10,7 @@
     title: string;
     icon: Icon;
     reasons: string[];
+    button: string;
   }
 </script>
 
@@ -20,64 +21,69 @@
   import PeremorazhivaetKamera from "../lib/reasons/peremorazhivaetkamera.svelte";
   import Podtekaet from "../lib/reasons/podtekaet.svelte";
   import VibivaetAvtomat from "../lib/reasons/vibivaetavtomat.svelte";
+  import Button from "./button.svelte";
 
   export let data: Data;
 </script>
 
 <div class="service">
-  {#if data.icon === "Gudit"}
-    <Gudit />
-  {/if}
-  {#if data.icon === "Namorajivaet"}
-    <Namorajivaet />
-  {/if}
-  {#if data.icon === "NenHolodaKamere"}
-    <NenHolodaKamere />
-  {/if}
-  {#if data.icon === "PeremorazhivaetKamera"}
-    <PeremorazhivaetKamera />
-  {/if}
-  {#if data.icon === "Podtekaet"}
-    <Podtekaet />
-  {/if}
-  {#if data.icon === "VibivaetAvtomat"}
-    <VibivaetAvtomat />
-  {/if}
+  <div class="content">
+    {#if data.icon === "Gudit"}
+      <Gudit />
+    {/if}
+    {#if data.icon === "Namorajivaet"}
+      <Namorajivaet />
+    {/if}
+    {#if data.icon === "NenHolodaKamere"}
+      <NenHolodaKamere />
+    {/if}
+    {#if data.icon === "PeremorazhivaetKamera"}
+      <PeremorazhivaetKamera />
+    {/if}
+    {#if data.icon === "Podtekaet"}
+      <Podtekaet />
+    {/if}
+    {#if data.icon === "VibivaetAvtomat"}
+      <VibivaetAvtomat />
+    {/if}
 
-  {data.title}
-  <div>
-    {#each data.reasons as reason}
-      <div><span>🫵🏾</span>{reason}</div>
-    {/each}
+    {data.title}
+
+    <div>
+      {#each data.reasons as reason}
+        <div class="reason">{reason}</div>
+      {/each}
+    </div>
   </div>
+
+  <Button to="tel:{import.meta.env.VITE_PHONE}">{data.button}</Button>
 </div>
 
 <style>
   .service {
     border-radius: 2rem;
-    padding: 2rem;
+    /* padding: 2rem; */
     height: calc(100vh - 1.5rem);
     display: grid;
-    justify-items: center;
-    align-content: center;
+    grid-template-rows: auto max-content;
     gap: 1rem;
     scroll-margin: 0.7rem;
     scroll-snap-align: start;
     scroll-snap-stop: normal;
-    filter: drop-shadow(0 0.2rem 0.5rem var(--main-color-30));
+    /* filter: drop-shadow(0 0.2rem 0.5rem var(--main-color-30)); */
     background: linear-gradient(var(--main-color-30) -450%, var(--main-bg-90)),
       var(--main-bg-90);
     border: 1px solid var(--main-bg-90);
   }
-  .service div div {
+  .content {
     display: grid;
-    grid-auto-flow: column;
-    grid-template-columns: max-content auto;
-    align-items: center;
-    gap: 0.2rem;
-    color: var(--text-color);
+    justify-items: center;
+    align-content: center;
+    gap: 2rem;
   }
-  span {
-    font-size: 0.8rem;
+  .reason {
+    display: grid;
+    text-align: center;
+    color: var(--text-color);
   }
 </style>

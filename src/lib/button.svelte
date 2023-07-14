@@ -1,14 +1,20 @@
-<div class="button"><slot /></div>
+<script lang="ts">
+  export let to: string;
+</script>
+
+<a class="button" href={to}><slot /></a>
 
 <style>
   .button {
     display: grid;
     height: 3.5rem;
     place-items: center;
-    color: hsl(0, 0%, 100%);
-    background: hsla(54, 100%, 50%, 0.1);
+    color: var(--main-bg);
+    background: var(--main-color);
     backdrop-filter: blur(2px);
     margin: 1rem;
     border-radius: 1.3rem;
+    position: sticky;
+    bottom: 1rem;
   }
 </style>
