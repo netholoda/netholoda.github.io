@@ -54,7 +54,6 @@
 
 <style>
   .service {
-    box-shadow: 0 0.4rem 2rem -1.5rem var(--main-color);
     border-radius: 2rem;
     padding: 2rem;
     height: calc(100vh - 1.5rem);
@@ -65,5 +64,8 @@
     scroll-margin: 0.7rem;
     scroll-snap-align: start;
     scroll-snap-stop: normal;
+    backdrop-filter: blur(2px);
+    filter: drop-shadow(0 0.4rem 1rem var(--main-color-60));
+    background: linear-gradient(var(--main-color-30) -325%, var(--main-bg));
   }
 </style>
