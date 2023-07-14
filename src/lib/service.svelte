@@ -47,7 +47,7 @@
   {data.title}
   <div>
     {#each data.reasons as reason}
-      <div><span>⚙️</span>{reason}</div>
+      <div><span>🫵🏾</span>{reason}</div>
     {/each}
   </div>
 </div>
