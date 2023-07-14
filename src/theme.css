@@ -8,6 +8,8 @@
 
   --svg-color: hsl(0, 0%, 100%);
 
+  --text-color: hsla(0, 0%, 0%, 0.7);
+
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -37,5 +39,7 @@
     --main-color-60: hsla(54, 100%, 50%, 0.6);
 
     --svg-color: hsl(0, 0%, 51%);
+
+    --text-color: hsla(0, 0%, 100%, 0.7);
   }
 }

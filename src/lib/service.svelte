@@ -64,8 +64,10 @@
     scroll-margin: 0.7rem;
     scroll-snap-align: start;
     scroll-snap-stop: normal;
-    filter: drop-shadow(0 0.4rem 1rem var(--main-color-30));
-    background: linear-gradient(var(--main-color-30) -450%, var(--main-bg-90)), var(--main-bg-90);
+    filter: drop-shadow(0 0.2rem 0.5rem var(--main-color-30));
+    background: linear-gradient(var(--main-color-30) -450%, var(--main-bg-90)),
+      var(--main-bg-90);
+    border: 1px solid var(--main-bg-90);
   }
   .service div div {
     display: grid;
@@ -73,6 +75,7 @@
     grid-template-columns: max-content auto;
     align-items: center;
     gap: 0.2rem;
+    color: var(--text-color);
   }
   span {
     font-size: 0.8rem;
