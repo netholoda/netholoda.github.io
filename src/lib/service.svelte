@@ -66,6 +66,11 @@
     scroll-snap-align: start;
     scroll-snap-stop: normal;
   }
+
+  .service li::marker {
+    content: "🚧";
+    font-size: 1.2em;
+  }
   /* @media (min-width: 700px) {
     .service {
       height: auto;
