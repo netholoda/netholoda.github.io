@@ -47,7 +47,7 @@
   {data.title}
   <div>
     {#each data.reasons as reason}
-      <div>🚧 {reason}</div>
+      <div>🥷🏿 {reason}</div>
     {/each}
   </div>
 </div>
@@ -66,14 +66,4 @@
     scroll-snap-align: start;
     scroll-snap-stop: normal;
   }
-
-  /* .service li::marker {
-    content: "🚧";
-    font-size: 1.2rem;
-  } */
-  /* @media (min-width: 700px) {
-    .service {
-      height: auto;
-    }
-  } */
 </style>
