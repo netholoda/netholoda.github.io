@@ -21,7 +21,7 @@
 
 <style>
   section {
-    padding: 1rem 10rem 0 1rem;
+    padding: 1rem 2rem 1rem 2rem;
     height: 100vh;
     scroll-snap-align: start;
     scroll-snap-stop: normal;
@@ -29,17 +29,17 @@
     overflow: hidden;
   }
   footer {
-    padding: 0.5rem 0;
     font-weight: 100;
     position: absolute;
-    bottom: 0;
+    bottom: 1rem;
+    line-height: 1;
   }
   footer a {
     display: inline-grid;
   }
   .master {
     background-image: url(../../assets/master.png);
-    background-size: 27rem;
+    background-size: 24rem;
     background-position: 33vw 100%;
     background-repeat: no-repeat;
     filter: drop-shadow(0.5rem 0.5rem 1.5rem var(--main-color-30));
