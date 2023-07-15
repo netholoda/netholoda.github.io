@@ -4,7 +4,8 @@
 
 a {
   display: inline-grid;
-  font-weight: 500;
+  place-content: center;
+  font-weight: 600;
   color: var(--main-bg);
   text-decoration: inherit;
   background-color: var(--main-color);

@@ -62,7 +62,7 @@
 <style>
   .service {
     border-radius: 2rem;
-    /* padding: 2rem; */
+    padding: 1rem;
     height: calc(100vh - 1.5rem);
     display: grid;
     grid-template-rows: auto max-content;

@@ -9,10 +9,6 @@
     display: grid;
     height: 3.5rem;
     place-items: center;
-    color: var(--main-bg);
-    background: var(--main-color);
-    backdrop-filter: blur(2px);
-    margin: 1rem;
     border-radius: 1.3rem;
     position: sticky;
     bottom: 1rem;

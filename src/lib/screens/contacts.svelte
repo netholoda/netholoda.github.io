@@ -3,8 +3,13 @@
   <p>
     Занимаюсь ремонтом холодильного оборудования более 5 лет. Подарю вашему
     холодильнику второю жизнь, решу проблему в кратчайшие сроки. Обращайтесь,
-    задавайте интересующие вопросы по <a href="tel:{import.meta.env.VITE_PHONE}">телефону</a>
-    или в <a target="_blank" href="https://t.me/{import.meta.env.VITE_PHONE}">телеграме</a>
+    задавайте интересующие вопросы по <a href="tel:{import.meta.env.VITE_PHONE}"
+      >телефону</a
+    >
+    или в
+    <a target="_blank" href="https://t.me/{import.meta.env.VITE_PHONE}"
+      >телеграме</a
+    >
   </p>
   <p>Всем добра 🙏</p>
   <div class="master" />
@@ -21,6 +26,7 @@
     scroll-snap-align: start;
     scroll-snap-stop: normal;
     position: relative;
+    overflow: hidden;
   }
   footer {
     padding: 0.5rem 0;
@@ -37,8 +43,8 @@
     background-position: 33vw 100%;
     background-repeat: no-repeat;
     filter: drop-shadow(0.5rem 0.5rem 1.5rem var(--main-color-30));
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     position: absolute;
     bottom: 0;
     right: 0;
