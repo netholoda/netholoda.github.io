@@ -22,7 +22,7 @@
 <style>
   section {
     padding: 1rem 2rem 1rem 2rem;
-    height: 100vh;
+    height: 100dvh;
     scroll-snap-align: start;
     scroll-snap-stop: normal;
     position: relative;
