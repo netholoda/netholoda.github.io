@@ -16,6 +16,8 @@
   <footer>
     &copy;{new Date().getFullYear()} Desing by
     <a href="https://t.me/otmozorok" target="_blank">@otmozorok</a>
+    <br />
+    ОГРНИП 318385000096922  •  ИНН 381915499636
   </footer>
 </section>
 
