@@ -67,10 +67,6 @@
     display: grid;
     grid-template-rows: auto max-content;
     gap: 1rem;
-    scroll-margin: 0.7rem;
-    scroll-snap-align: start;
-    scroll-snap-stop: normal;
-    /* filter: drop-shadow(0 0.2rem 0.5rem var(--main-color-30)); */
     background: linear-gradient(var(--main-color-30) -450%, var(--main-bg-90)),
       var(--main-bg-90);
     border: 1px solid var(--main-bg-90);
@@ -80,10 +76,12 @@
     justify-items: center;
     align-content: center;
     gap: 2rem;
+    font-size: 2rem;
   }
   .reason {
     display: grid;
     text-align: center;
     color: var(--text-color);
+    font-size: 1.5rem;
   }
 </style>

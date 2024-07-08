@@ -12,5 +12,6 @@
     border-radius: 1.3rem;
     position: sticky;
     bottom: 1rem;
+    font-size: 1.4rem;
   }
 </style>

@@ -7,11 +7,9 @@
 
 <style>
   section {
-    height: 100dvh;
+    height: 100vh;
     display: grid;
     grid-template-rows: auto max-content;
-    scroll-snap-align: start;
-    scroll-snap-stop: normal;
   }
   .main {
     display: grid;

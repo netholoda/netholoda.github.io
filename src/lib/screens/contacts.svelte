@@ -1,5 +1,5 @@
 <section>
-  <h3>Меня зовут Олег</h3>
+  <h2>Меня зовут Олег</h2>
   <p>
     Занимаюсь ремонтом холодильного оборудования более 5 лет. Подарю вашему
     холодильнику второю жизнь, решу проблему в кратчайшие сроки. Обращайтесь,
@@ -17,16 +17,17 @@
     &copy;{new Date().getFullYear()} Desing by
     <a href="https://t.me/otmozorok" target="_blank">@otmozorok</a>
     <br />
-    ОГРНИП 318385000096922  •  ИНН 381915499636
+    ОГРНИП 318385000096922 • ИНН 381915499636
   </footer>
 </section>
 
 <style>
+  p {
+    font-size: 1.2rem;
+  }
   section {
     padding: 1rem 2rem 1rem 2rem;
-    height: 100dvh;
-    scroll-snap-align: start;
-    scroll-snap-stop: normal;
+    height: 100vh;
     position: relative;
     overflow: hidden;
   }
