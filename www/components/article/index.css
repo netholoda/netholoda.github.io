@@ -1,0 +1,57 @@
+ul-article img {
+  width: 150px;
+  height: 250px;
+  object-fit: cover;
+  object-position: center;
+}
+
+ul-article {
+  border-radius: 2rem;
+  padding: 1rem;
+  height: calc(100vh - 1.5rem);
+  display: grid;
+  grid-template-rows: auto max-content;
+  gap: 1rem;
+  background: linear-gradient(var(--main-color-30) -450%, var(--main-bg-90)),
+    var(--main-bg-90);
+  border: 1px solid var(--main-bg-90);
+}
+
+ul-article .reason {
+  display: grid;
+  text-align: center;
+  color: var(--text-color);
+  font-size: 1.5rem;
+}
+
+ul-article .main {
+  stroke: var(--svg-color);
+}
+
+ul-article .other {
+  fill: var(--main-color);
+}
+
+ul-article li {
+  display: grid;
+  text-align: center;
+  color: var(--text-color);
+  font-size: 1.5rem;
+}
+
+ul-article a {
+  display: grid;
+  height: 3.5rem;
+  place-items: center;
+  place-content: center;
+  border-radius: 1.3rem;
+  position: sticky;
+  bottom: 1rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--main-bg);
+  text-decoration: inherit;
+  background-color: var(--main-color);
+  padding: 2px 3px;
+  line-height: 1;
+}
