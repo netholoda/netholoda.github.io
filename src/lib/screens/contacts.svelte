@@ -42,8 +42,8 @@
   }
   .master {
     background-image: url(../../assets/master.png);
-    background-size: 24rem;
-    background-position: 33vw 100%;
+    background-size: 27rem;
+    background-position: 33vw 40vh;
     background-repeat: no-repeat;
     filter: drop-shadow(0.5rem 0.5rem 1.5rem var(--main-color-30));
     width: 100%;
