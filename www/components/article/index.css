@@ -32,6 +32,10 @@ ul-article .other {
   fill: var(--main-color);
 }
 
+ul-article ul {
+  padding: 0;
+}
+
 ul-article li {
   display: grid;
   text-align: center;

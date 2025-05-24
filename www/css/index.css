@@ -1,5 +1,5 @@
 @import "../components/article/index.css";
-:root  {
+:root {
   --main-bg: hsl(0, 0%, 89%);
   --main-bg-90: hsla(0, 0%, 89%, 0.9);
 
@@ -137,7 +137,6 @@ header {
 }
 
 .fridge {
-  background-image: url(../img/fridge.webp);
   background-size: cover;
   background-position: -20vh;
   background-repeat: no-repeat;
@@ -189,7 +188,6 @@ footer {
 }
 
 .master {
-  background-image: url(../img/master.webp);
   background-size: 27rem;
   background-position: 33vw 40vh;
   background-repeat: no-repeat;
