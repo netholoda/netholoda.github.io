@@ -24,3 +24,20 @@ ul-article .main {
 ul-article .other {
   fill: var(--main-color);
 }
+
+ul-article a {
+  display: grid;
+  height: 3.5rem;
+  place-items: center;
+  place-content: center;
+  border-radius: 1.3rem;
+  position: sticky;
+  bottom: 1rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--main-bg);
+  text-decoration: inherit;
+  background-color: var(--main-color);
+  padding: 2px 3px;
+  line-height: 1;
+}
