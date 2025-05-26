@@ -221,7 +221,7 @@ main {
 section {
   position: sticky;
   bottom: -1px;
-  padding: 1rem;
+  padding: 1rem 2rem;
   display: grid;
   grid-template-columns: auto max-content;
   gap: 1rem;
@@ -252,4 +252,5 @@ section {
   background-color: var(--main-color-30);
   border-radius: 2rem 2rem 0 0;
   box-shadow: 0 -5px 20px var(--main-bg-10);
+  padding: 1rem;
 }
