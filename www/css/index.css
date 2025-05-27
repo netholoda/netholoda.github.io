@@ -6,6 +6,7 @@
   --main-bg-90: hsla(0, 0%, 89%, 0.9);
 
   --main-color: hsl(230, 28%, 26%);
+  --main-color-10: hsla(230, 28%, 26%, 0.1);
   --main-color-30: hsla(230, 28%, 26%, 0.3);
   --main-color-60: hsla(230, 28%, 26%, 0.6);
 
@@ -39,6 +40,7 @@
     --main-bg-90: hsla(0, 0%, 9%, 0.9);
 
     --main-color: hsl(54, 100%, 50%);
+    --main-color-10: hsla(54, 100%, 50%, 0.1);
     --main-color-30: hsla(54, 100%, 50%, 0.3);
     --main-color-60: hsla(54, 100%, 50%, 0.6);
 
