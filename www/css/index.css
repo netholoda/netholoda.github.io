@@ -250,7 +250,7 @@ section {
 
 .sticky {
   backdrop-filter: blur(10px);
-  background-color: var(--main-color-30);
+  background-color: var(--main-bg-10);
   border-radius: 2rem 2rem 0 0;
   box-shadow: 0 -5px 20px var(--main-bg-10);
   padding: 1rem;
