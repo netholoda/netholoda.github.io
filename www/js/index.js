@@ -14,4 +14,18 @@ document.addEventListener("DOMContentLoaded", () => {
   );
 
   observer.observe(stickyElm);
+
+  function updateThemeColor() {
+    const isDarkMode = window.matchMedia(
+      "(prefers-color-scheme: dark)"
+    ).matches;
+    const themeColor = isDarkMode ? "#171717" : "#e3e3e3";
+    document.querySelector('meta[name="theme-color"]').content = themeColor;
+  }
+
+  updateThemeColor();
+
+  window
+    .matchMedia("(prefers-color-scheme: dark)")
+    .addListener(updateThemeColor);
 });
