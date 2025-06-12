@@ -16,7 +16,7 @@ ul-article {
       to bottom,
       var(--main-color-10),
       var(--main-bg-10),
-      var(--main-bg-50)
+      var(--main-bg-10)
     ),
     var(--main-bg-90);
   border: 1px solid var(--main-bg-90);
