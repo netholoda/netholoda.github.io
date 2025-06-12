@@ -2,11 +2,11 @@
   "name": "Ремонт холодильников в Усолье-Сибирском",
   "short_name": "Ремонт холодильников",
   "description": "Срочный ремонт холодильников в городе Усолье-Сибирское и Усольском районе. Вызов мастера на дом для ремонта холодильника или его диагностики",
-  "start_url": "/?pwa=v0.1",
+  "start_url": "/?utm_source=pwa",
   "version": "1",
   "lang": "ru-RU",
-  "theme_color": "#21ac50",
-  "background_color": "#21ac50",
+  "theme_color": "#e3e3e3",
+  "background_color": "#e3e3e3",
   "display": "standalone",
   "display_override": ["window-controls-overlay"],
   "orientation": "portrait",
@@ -32,34 +32,12 @@
   ],
   "shortcuts": [
     {
-      "name": "Каталог объявлений",
-      "url": "/rossiya/",
+      "name": "Звонок мастеру",
+      "url": "tel:+79526331311",
       "icons": [
         {
-          "src": "/pwa/images/icons/icon-catalog.png",
-          "sizes": "96x96",
-          "type": "image/png"
-        }
-      ]
-    },
-    {
-      "name": "Разместить",
-      "url": "/personal/add/",
-      "icons": [
-        {
-          "src": "/pwa/images/icons/icon-add.png",
-          "sizes": "96x96",
-          "type": "image/png"
-        }
-      ]
-    },
-    {
-      "name": "Сообщения",
-      "url": "/personal/messages/",
-      "icons": [
-        {
-          "src": "/pwa/images/icons/icon-messages.png",
-          "sizes": "96x96",
+          "src": "./img/pwa/icons/LucidePhoneOutgoing.svg",
+          "sizes": "32x32",
           "type": "image/png"
         }
       ]
