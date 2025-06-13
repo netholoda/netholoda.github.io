@@ -20,13 +20,25 @@
   ],
   "screenshots": [
     {
-      "src": "./img/pwa/desktop.png",
+      "src": "./img/pwa/desktop-1.png",
       "sizes": "2310x1866",
       "type": "image/png",
       "form_factor": "wide"
     },
     {
-      "src": "./img/pwa/mobile.png",
+      "src": "./img/pwa/desktop-2.png",
+      "sizes": "2310x1866",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "./img/pwa/mobile-1.png",
+      "sizes": "720x1424",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "./img/pwa/mobile-2.png",
       "sizes": "720x1424",
       "type": "image/png",
       "form_factor": "narrow"
