@@ -20,25 +20,13 @@
   ],
   "screenshots": [
     {
-      "src": "/pwa/images/screenshots/desktop-1.png",
+      "src": "./img/pwa/desktop.png",
       "sizes": "2310x1866",
-      "type": "image/jpg",
-      "form_factor": "wide"
-    },
-    {
-      "src": "/pwa/images/screenshots/desktop-2.png",
-      "sizes": "2310x1866",
-      "type": "image/jpg",
-      "form_factor": "wide"
-    },
-    {
-      "src": "/pwa/images/screenshots/mobile-1.jpg",
-      "sizes": "720x1424",
       "type": "image/png",
-      "form_factor": "narrow"
+      "form_factor": "wide"
     },
     {
-      "src": "/pwa/images/screenshots/mobile-2.jpg",
+      "src": "./img/pwa/mobile.png",
       "sizes": "720x1424",
       "type": "image/png",
       "form_factor": "narrow"
@@ -47,7 +35,7 @@
   "capture_links": "existing_client_event",
   "url_handlers": [
     {
-      "origin": "https://usolie.laapl.ru/"
+      "origin": "https://usolie.fridgefixed.ru/"
     }
   ]
 }
