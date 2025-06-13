@@ -64,9 +64,6 @@ customElements.define(
     // This is the standard callback for when attributes listed in observedAttributes change
     attributeChangedCallback(name, oldValue, newValue) {
       if (oldValue !== newValue) {
-        console.log(
-          `Attribute '${name}' changed from '${oldValue}' to '${newValue}'.`
-        );
         // Re-render the content when relevant attributes change
         this._updateContent();
       }

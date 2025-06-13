@@ -22,9 +22,6 @@ customElements.define(
 
     attributeChangedCallback(name, oldValue, newValue) {
       if (name === "imageName" && oldValue !== newValue) {
-        console.log(
-          `Attribute '${name}' changed from '${oldValue}' to '${newValue}'.`
-        );
         this._updateBackgroundImage(); // Update the background when imageName changes
       }
     }

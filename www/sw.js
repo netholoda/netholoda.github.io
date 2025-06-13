@@ -1,14 +1,14 @@
-const CACHE_NAME = "pwa-v0.1";
+const CACHE_NAME = "pwa-v0.2";
 
 const assets = [
   "./manifest.json",
-  "./img/pwa/icons/icon-48.png",
-  "./img/pwa/icons/icon-72.png",
-  "./img/pwa/icons/icon-96.png",
-  "./img/pwa/icons/icon-128.png",
-  "./img/pwa/icons/icon-192.png",
-  "./img/pwa/icons/icon-384.png",
-  "./img/pwa/icons/icon-512.png",
+  "./img/pwa/icons/maskable_icon_x48.png",
+  "./img/pwa/icons/maskable_icon_x72.png",
+  "./img/pwa/icons/maskable_icon_x96.png",
+  "./img/pwa/icons/maskable_icon_x128.png",
+  "./img/pwa/icons/maskable_icon_x192.png",
+  "./img/pwa/icons/maskable_icon_x384.png",
+  "./img/pwa/icons/maskable_icon_x512.png",
   "./components/article/index.js",
   "./components/article/index.css",
   "./components/image/index.js",
