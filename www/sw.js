@@ -26,3 +26,17 @@ self.addEventListener("install", (evt) => {
     })
   );
 });
+
+self.addEventListener("activate", (evt) => {
+  evt.waitUntil(
+    clients.claim().then(() => {
+      return caches.keys().then((keys) => {
+        return Promise.all(
+          keys
+            .filter((key) => key !== CACHE_NAME)
+            .map((key) => caches.delete(key))
+        );
+      });
+    })
+  );
+});
